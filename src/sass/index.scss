@@ -41,3 +41,31 @@ body {
 .square.winner {
   background-color: #DF73FF;
 }
+
+
+.pageWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.boardWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  width: 306px;
+  height: 306px;
+}
+
+.boardSquare {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
