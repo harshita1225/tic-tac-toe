@@ -1,5 +1,6 @@
 {
   "name": "tic-tac-toe",
+  "homepage": "https://harshita1225.github.io/tic-tac-toe/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +11,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -o codecommit ",
     "start-js": "react-scripts start",
     "start": "react-scripts start",
     "build-js": "react-scripts build",
@@ -27,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
